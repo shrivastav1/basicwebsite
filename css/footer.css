@@ -1,0 +1,110 @@
+footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+    margin-left:10px ;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.footer-link:hover{
+    color: #fff;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 10px;
+}
+
+footer span{
+    margin: 15px 0 0 5px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.follow{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.socicals li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);  
+}
+
+.socials a ion-icon{
+    font-size: 30px;
+    padding: 10px;
+    transition: color .4s ease;
+}
+
+.socials a:hover ion-icon{
+    color: #39f2ff;
+}
+.install .row img{
+   
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.install img{
+    margin: 10px 0 15px 0;
+}
+
+.follow i:hover,
+a:hover{
+    color: #fff;
+}
+.copyright{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
